@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="aplikasi.serializable.InputData">
+
+    <TextView
+        android:id="@+id/txt_imt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HITUNG IMT"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/et_BeratBadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_imt"
+        android:hint="Berat Badan (Kg)"/>
+
+    <EditText
+        android:id="@+id/et_TinggiBadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_BeratBadan"
+        android:hint="Tinggi Badan (m)"/>
+
+    <Button
+        android:id="@+id/but_hitungimt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_TinggiBadan"
+        android:text="Hitung"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zulfa.binar.chapter3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Chapter3">
+        <activity
+            android:name=".fragment.HalamanUtama"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="aplikasi.serializable.HasilBmi"
+            android:exported="false" />
+        <activity
+            android:name="aplikasi.serializable.InputData"
+            android:exported="true"/>
+        <activity
+            android:name="aplikasi.serializable.HasilActivity"
+            android:exported="false" />
+        <activity
+            android:name="aplikasi.serializable.InputActivity"
+            android:exported="true" />
+        <activity
+            android:name="aplikasi.serializable.SecondActvity"
+            android:exported="false" />
+        <activity
+            android:name="aplikasi.serializable.FirstActivity"
+            android:exported="true" />
+        <activity
+            android:name="aplikasi.nilai.HasilNilai"
+            android:exported="false" />
+        <activity
+            android:name="aplikasi.nilai.Home_Nilai"
+            android:exported="true" />
+        <activity
+            android:name="aplikasi.wisata.Web"
+            android:exported="false"
+            android:label="Website Borobudur Park" />
+        <activity
+            android:name="aplikasi.wisata.Profile"
+            android:exported="false"
+            android:label="Profile" />
+        <activity
+            android:name="aplikasi.wisata.Home_Wisata"
+            android:exported="false"
+            android:label="Home" />
+        <activity
+            android:name="aplikasi.wisata.Beranda"
+            android:exported="true"
+            android:label="Beranda" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityB"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityA"
+            android:exported="true" />
+        <activity
+            android:name=".AppBabyshop"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityLifecycle"
+            android:exported="false" />
+        <activity
+            android:name=".LatihanDua"
+            android:exported="true" />
+        <activity
+            android:name=".WebView"
+            android:exported="true" />
+        <activity
+            android:name=".LatihanSatu"
+            android:exported="true" />
+        <activity
+            android:name=".HalamanDua"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

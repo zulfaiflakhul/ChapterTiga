@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".LatihanDua">
+
+    <EditText
+        android:id="@+id/angka_satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_angka"/>
+
+    <EditText
+        android:id="@+id/angka_dua"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_angka"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/but_tambah"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="+"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/but_kurang"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="-"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/but_kali"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="*"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/but_bagi"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="/" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/hasil"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/but_reset"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Reset"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:layout_margin="20dp"
+tools:context="aplikasi.nilai.HasilNilai">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/input_nilai_mahasiswa"
+    android:textSize="30sp"
+    android:textColor="@color/black"
+    android:layout_gravity="center_horizontal"/>
+
+<EditText
+        android:id="@+id/input_namamhs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/nama_mahasiswa"/>
+
+<EditText
+    android:id="@+id/input_uts"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:hint="@string/nilai_uts"/>
+
+<EditText
+    android:id="@+id/input_uas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:hint="@string/nilai_uas"/>
+
+<EditText
+    android:id="@+id/input_tugas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:hint="@string/nilai_tugas"/>
+
+<Button
+    android:id="@+id/but_prosesnilai"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/proses"/>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ChapterTiga</string>
+    <string name="nama">Nama</string>
+    <string name="umur">Umur</string>
+    <string name="Nilai" />
+    <string name="nilai">Nilai</string>
+    <string name="masukkan_angka">Masukkan Angka</string>
+    <string name="hasil">Hasil</string>
+    <string name="sejarah_candi">Candi Prambanan merupakan candi Hindu yang terbesar di Indonesia. Sampai saat ini belum dapat dipastikan kapan candi ini dibangun dan atas perintah siapa, namun kuat dugaan bahwa Candi Prambanan dibangun sekitar pertengahan abad ke-9 oleh raja dari Wangsa Sanjaya, yaitu Raja Balitung Maha Sambu. Dugaan tersebut didasarkan pada isi Prasasti Syiwagrha yang ditemukan di sekitar Prambanan dan saat ini tersimpan di Museum Nasional di Jakarta. Prasasti berangka tahun 778 Saka (856 M) ini ditulis pada masa pemerintahan Rakai Pikatan. Denah asli Candi Prambanan berbentuk persegi panjang, terdiri atas halaman luar dan tiga pelataran, yaitu Jaba (pelataran luar), Tengahan (pelataran tengah) dan Njeron (pelataran dalam). Halaman luar merupakan areal terbuka yang mengelilingi pelataran luar. Pelataran luar berbentuk bujur dengan luas 390 m2. Pelataran ini dahulu dikelilingi oleh pagar batu yang kini sudah tinggal reruntuhan. Pelataran luar saat ini hanya merupakan pelataran kosong. Belum diketahui apakah semula terdapat bangunan atau hiasan lain di pelataran ini.</string>
+    <string name="input_nilai_mahasiswa">Input Nilai Mahasiswa</string>
+    <string name="nilai_uts">Nilai UTS</string>
+    <string name="nilai_uas">Nilai UAS</string>
+    <string name="nilai_tugas">Nilai Tugas</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="proses">proses</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment" />
+</resources>
