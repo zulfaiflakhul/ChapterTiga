@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter3">
         <activity
-            android:name=".fragment.HalamanUtama"
+            android:name=".bottomnav.BerandaGojek"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,11 +23,14 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".fragment.HalamanUtama"
+            android:exported="true"/>
+        <activity
             android:name="aplikasi.serializable.HasilBmi"
             android:exported="false" />
         <activity
             android:name="aplikasi.serializable.InputData"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name="aplikasi.serializable.HasilActivity"
             android:exported="false" />
